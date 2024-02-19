@@ -5,9 +5,7 @@
     <meta charset="utf-8" />
     <meta name="author" content="Madeleine Potter" />
     <script src="libs/header-attrs-2.25/header-attrs.js"></script>
-    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
-    <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
-    <link rel="stylesheet" href="custom-style.css" type="text/css" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -20,7 +18,7 @@ class: center, middle, inverse, title-slide
 ### Madeleine Potter
 ]
 .date[
-### 01/16/2023 (updated: 2024-02-07)
+### 01/16/2023 (updated: 2024-02-19)
 ]
 
 ---
@@ -29,7 +27,12 @@ class: center, middle, inverse, title-slide
 
 
 
-# Summary: What is MODIS?
+
+
+
+class: inverse
+
+## Summary: What is MODIS?
 
 - Moderate Resolution Imaging Spectroradiometer (MODIS) is a
 key sensor aboard two NASA observation satellites Terra and Aqua.
@@ -47,7 +50,7 @@ key sensor aboard two NASA observation satellites Terra and Aqua.
 &lt;/div&gt;
 ---
 
-# Summary: MODIS Aqua and Terra Sensor Information
+## Summary: MODIS Aqua and Terra Sensor Information
 
 The MODIS sensors collect both atmospheric and land surface information, on things such as:
 
@@ -58,7 +61,7 @@ The MODIS sensors collect both atmospheric and land surface information, on thin
 - Albedo.
 
 
-#Resolutions
+## Resolutions
 
 &lt;table&gt;
  &lt;thead&gt;
@@ -89,7 +92,7 @@ The MODIS sensors collect both atmospheric and land surface information, on thin
 
 
 ---
-# Summary: Image Examples
+### Summary: Image Examples
 
 MODIS Aqua captured the nutrient enrichment (mainly nitrogen and phosphorous) of the Gulf of Mexico by the Mississippi River. This enrichment creates a hypoxic environment, which is now known as the Gulf of Mexico Dead Zone. 
 
@@ -100,16 +103,16 @@ MODIS Aqua captured the nutrient enrichment (mainly nitrogen and phosphorous) of
 
 ---
 
-# Applications: Studies That Have Used MODIS
+## Applications: Studies That Have Used MODIS
 
-### Assessing Sea Surface Temperature Trends &lt;a name=cite-garcia-monteiroSurfaceTemperatureTrends2022&gt;&lt;/a&gt;([García-Monteiro, Sobrino, Julien, Sòria, and Skokovic, 2022](#bib-garcia-monteiroSurfaceTemperatureTrends2022)) 
+#### Assessing Sea Surface Temperature Trends &lt;a name=cite-garcia-monteiroSurfaceTemperatureTrends2022&gt;&lt;/a&gt;([García-Monteiro, Sobrino, Julien, Sòria, and Skokovic, 2022](#bib-garcia-monteiroSurfaceTemperatureTrends2022)) 
 
 This study used MODIS data to map sea surface temperatures of the Mediterranean Sea and
 analyse the trends between 2003 and 2019. The paper mentioned the issue of cloudiness when 
 interpreting satellite estimations as thermal radiometers cannot observe through clouds. 
 
 
-### Monitoring Desertification &lt;a name=cite-fengMonitoringDesertificationUsing2022&gt;&lt;/a&gt;([Feng, Wang, Liu, Kang, Chen, Guo, and Zhi, 2022](#bib-fengMonitoringDesertificationUsing2022)) 
+#### Monitoring Desertification &lt;a name=cite-fengMonitoringDesertificationUsing2022&gt;&lt;/a&gt;([Feng, Wang, Liu, Kang, Chen, Guo, and Zhi, 2022](#bib-fengMonitoringDesertificationUsing2022)) 
 
 This study used machine learning techniques on MODIS imagery to identify spatio-temporal
 patterns of desertification in China between 2000 and 2018. This study also used four
@@ -117,15 +120,15 @@ MODIS products which were surface reflectance, albedo, vegetation index, and lan
 
 ---
 
-# Applications: Studies That Have Used MODIS
+## Applications: Studies That Have Used MODIS
 
-### Urban Heat Island Assessment
+#### Urban Heat Island Assessment
 
 This study used surface temperature, mean albedo and NDVI products from the MODIS sensor aboard
 the TERRA satellite to measure the urban heat island effect in Brazil. Urban heat island intensity was measured by calculating the difference between the mean temperature of the pixels in the urban fringes and the urban areas.However, due to the low
 spatial resolution of MODIS, an intra-urban analysis could not be done and instead further investigation is needed. 
 
-### Detection of Algal Blooms &lt;a name=cite-germanDetectionAlgalBlooms2017&gt;&lt;/a&gt;([Germán, Tauro, Scavuzzo, and Ferral, 2017](#bib-germanDetectionAlgalBlooms2017))
+#### Detection of Algal Blooms &lt;a name=cite-germanDetectionAlgalBlooms2017&gt;&lt;/a&gt;([Germán, Tauro, Scavuzzo, and Ferral, 2017](#bib-germanDetectionAlgalBlooms2017))
 
 This study used daily MODIS imagery to detect chlorophyll-a concentrations and built a cloud-free
 time series of 2001-2014. By assessing this data, the paper suggested a clear range of chlorophyll-a values in which the San Roque Dam is going through a bloom event, allowing for better identification and possibilities for an early warning system. This study demonstrated MODIS' abilities to monitor 
@@ -133,7 +136,7 @@ water quality, even in in-land environments.
 
 ---
 
-#Reflection
+## Reflection
 
 - From what I have learnt, MODIS has been extremely useful in assessing global environmental changes that have helped assess the trends and state of climate change over the past 20 years. 
 
@@ -149,7 +152,7 @@ and Aqua in 2026 however all the information I found was unclear.
 
 ---
 
-# References
+## References
 
 &lt;a name=bib-fengMonitoringDesertificationUsing2022&gt;&lt;/a&gt;[Feng, K., T.
 Wang, S. Liu, et al.](#cite-fengMonitoringDesertificationUsing2022)
@@ -178,6 +181,7 @@ pp. 4008-4011.
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
 "highlightLines": true,
+"slideNumberFormat": "%current%",
 "ratio": "16:9",
 "slideNumber": true,
 "navigation": "scroll",
