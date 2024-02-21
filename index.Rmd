@@ -3,7 +3,7 @@
 title: "MODIS Aqua and Terra"
 subtitle: ""
 author: "Madeleine Potter"
-date: "01/16/2023 (updated: `r Sys.Date()`)"
+date: "01/16/2023"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
