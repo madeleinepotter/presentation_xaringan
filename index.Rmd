@@ -121,7 +121,7 @@ MODIS products which were surface reflectance, albedo, vegetation index, and lan
 
 ## Applications: Studies That Have Used MODIS
 
-#### Urban Heat Island Assessment
+#### Urban Heat Island Assessment  (Montiero et al., 2021)
 
 This study used surface temperature, mean albedo and NDVI products from the MODIS sensor aboard
 the TERRA satellite to measure the urban heat island effect in Brazil. Urban heat island intensity was measured by calculating the difference between the mean temperature of the pixels in the urban fringes and the urban areas.However, due to the low
@@ -156,3 +156,5 @@ and Aqua in 2026 however all the information I found was unclear.
 ```{r echo = FALSE, results='asis', warning = FALSE}
 PrintBibliography(myBib, start = 1, end = 7)
 ```
+
+Monteiro, F.F., Gonçalves, W.A., Andrade, L. de M.B., Villavicencio, L.M.M. and dos Santos Silva, C.M. (2021). Assessment of Urban Heat Islands in Brazil based on MODIS remote sensing data. Urban Climate, [online] 35, p.100726. doi:https://doi.org/10.1016/j.uclim.2020.100726.
